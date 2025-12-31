@@ -1,0 +1,13 @@
+[package]
+name = "core-crypto"
+version = "0.1.0"
+edition = "2021"
+authors = ["Codezh Contributors <dev@codezh.org>"]
+description = "Placeholder crate for cryptographic primitives and protocol definitions for Codezh (MVP)."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/your_org/codezh"
+publish = false
+
+[lib]
+name = "core_crypto"
+path = "src/lib.rs"

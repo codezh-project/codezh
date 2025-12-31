@@ -1,0 +1,13 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+authors = ["Codezh Contributors <dev@codezh.org>"]
+description = "Placeholder backend server for Codezh (MVP)."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/your_org/codezh"
+publish = false
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
